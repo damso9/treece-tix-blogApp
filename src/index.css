@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;600&family=The+Nautigal:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spline Sans', sans-serif;
+}
+.App {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    padding: 1.5em;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+ul li {
+    list-style-type: none;
+}
+.nav2 li {
+    display: inline;
+    
+    
+  
+    
+    
+}
+.link-btn {
+   
+    outline: none;
+    font-size: 1.3em;
+    margin-left: 1.4em;
+    text-decoration: none;
+    padding: 0.5em;
+    border-radius: 5px;
+    color: black;
+    
+}
+.link-btn {
+    text-decoration: none;
+    font-weight: 400;
+}
+.link-btn:hover {
+    background-color: yellowgreen;
+   
+   
+}
+.treece-tix {
+    color: purple;
+    font-size: 2.9em;
+    font-family: 'The Nautigal', cursive;
+    font-weight: 700;
+}
+.treece-tix span {
+    font-family: 'The Nautigal', cursive;
+
+}
+
+
+.blogs h2{
+    color: purple;
+    margin-top: 1.4em;
+    margin-bottom: 1.4em;
+}
+.blog-items h3 {
+    /* border: 2px solid red; */
+    margin-bottom: 1.0em;
+}
+.blog-items {
+    margin-top: 1.2em;
+}
+.blog-items:hover {
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    cursor: pointer;
+}
+.create-blog h2{
+    text-align: center;
+    margin-top: 1.3em;
+
+}
+.create-blog form {
+    border: 2px solid red;
+}
+.create-blog-input-container {
+    border: 2px solid green;
+    width: 90%;
+    margin-left: auto;
+    margin-right:auto;
+}
+.create-blog-title label {
+    display: block;
+    font-size: 1.3em;
+}
+.create-blog-title input {
+    margin-top: 0.8em;
+    font-size: 1.3em;
+    width: 100%;
+}
+.create-blog-title, .create-blog-body, .create-blog-author {
+    margin-bottom: 0.9em;
+}
+.create-blog-body label {
+    display: block;
+    font-size: 1.3em;
+}
+.create-blog-author label {
+    display: block;
+    font-size: 1.3em;
+}
+.create-blog-author select {
+    width: 100%;
+    margin-top: 0.5em;
+    
+}
+.create-blog button {
+    background-color: purple;
+    color: white;
+    padding: 0.8em 1.2em;
+    border-radius: 6px;
+    outline: none;
+    width: 100%;
+    font-size: 1.3em;
+}
+.blog-details h2{
+    text-align: center;
+    margin-top: 0.9em;
+    margin-bottom: 0.9em
+}
+.written-by {
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+.blog-details button {
+    width: 100%;
+    background: red;
+    outline: none;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9em;
+    padding: 0.5em 0.9em;
+    font-weight: bold;
+}
+.blog-details button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.registeration h2 {
+    text-align: center;
+}
+.reg-form-wrapper {
+    /* border: 2px solid red; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reg-first-name label, .reg-last-name label, .reg-username label, .reg-email label,
+.reg-password label, .reg-bio label {
+    display: block;
+    font-size: 1.3em;
+}
+.reg-first-name input, #reg-last-name-input,#reg-username-input, #reg-email-input, #reg-password-input,
+#reg-bio-input {
+    margin-top: 0.8em;
+    font-size: 1.3em;
+    width: 100%;
+}
+.registeration button {
+    margin-top: 10px;
+    padding: 20px 10px;
+    color: white;
+    background: purple;
+    width: 100%;
+    border: none;
+    font-size: 1.3em;
+    border-radius: 7px;
+}
+.reg-btn:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+.registeration p {
+    text-align: center;
+    margin-top: 10px;
+}
+.login h2 {
+    text-align: center;
+    margin-top: 12px;
+}
+.login-wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login-email label, .login-password label {
+    display: block;
+    font-size: 1.3em;
+}
+#login-email-input, #login-password-input {
+    margin-top: 0.8em;
+    font-size: 1.3em;
+    width: 100%;
+}
+.login button {
+    margin-top: 10px;
+    padding: 20px 10px;
+    color: white;
+    background: purple;
+    width: 100%;
+    border: none;
+    font-size: 1.3em;
+    border-radius: 7px;
+}
+.login button:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+.login p {
+    text-align: center;
+    margin-top: 10px;
+}
